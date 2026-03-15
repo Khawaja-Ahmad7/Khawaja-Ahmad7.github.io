@@ -1,6 +1,6 @@
 ﻿export default function Experience() {
   return (
-    <section className="projects-section reveal active">
+    <section className="projects-section reveal">
       <h2 className="section-heading">Experience</h2>
       <div className="experience-list">
         <div className="project-card" style={{marginBottom: "20px"}}>

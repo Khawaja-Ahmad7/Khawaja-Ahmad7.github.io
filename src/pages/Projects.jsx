@@ -2,7 +2,7 @@
 
 export default function Projects() {
   return (
-    <section className="projects-section reveal active">
+    <section className="projects-section reveal">
       <h2 className="section-heading">All Projects</h2>
       <div className="projects-grid">
         <div className="project-card">

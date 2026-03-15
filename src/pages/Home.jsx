@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero-section reveal active">
+      <section className="hero-section reveal">
         <div className="hero-badge"><span className="cursor-dot"></span> Available for opportunities</div>
         <p className="greeting">Hi, my name is</p>
         <h1 className="name">Ahmad Bilal.</h1>
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="projects-section reveal active" style={{paddingTop: "50px"}}>
+      <section className="projects-section reveal" style={{paddingTop: "50px"}}>
         <h2 className="section-heading">Current Employment & Experience</h2>
         <div className="experience-list">
           <div className="project-card" style={{marginBottom: "20px"}}>
@@ -91,7 +91,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="projects-section reveal active">
+      <section className="projects-section reveal">
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "40px" }}>
           <h2 className="section-heading" style={{ margin: 0, width: "auto" }}>Featured Projects</h2>
           <Link to="/projects" style={{ color: "var(--green)", display: "flex", alignItems: "center", gap: "5px", fontSize: "14px", fontFamily: "var(--font-mono)" }}>

@@ -2,7 +2,7 @@
 
 export default function Contact() {
   return (
-    <section className="contact-section reveal active" style={{paddingTop: "150px"}}>
+    <section className="contact-section reveal" style={{paddingTop: "150px"}}>
       <h2 className="section-heading center">Let's Talk</h2>
       <h3 className="contact-title">Get In Touch</h3>
       <p className="contact-desc">
