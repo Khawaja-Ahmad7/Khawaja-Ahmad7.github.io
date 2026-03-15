@@ -1,18 +1,37 @@
 ﻿import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { BrainCircuit } from "lucide-react";
+import { BrainCircuit, Sun, Moon } from "lucide-react";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
+  const [isLightMode, setIsLightMode] = useState(false);
 
   useEffect(() => {
+    // Check local storage for theme preference
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "light") {
+      setIsLightMode(true);
+      document.documentElement.setAttribute("data-theme", "light");
+    }
+    
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const toggleTheme = () => {
+    setIsLightMode(!isLightMode);
+    if (!isLightMode) {
+      document.documentElement.setAttribute("data-theme", "light");
+      localStorage.setItem("theme", "light");
+    } else {
+      document.documentElement.removeAttribute("data-theme");
+      localStorage.setItem("theme", "dark");
+    }
+  };
 
   return (
     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
@@ -28,6 +47,14 @@ export default function Navbar() {
           <Link to="/projects" className={`nav-item ${location.pathname === "/projects" ? "active" : ""}`}>Projects</Link>
           <Link to="/contact" className={`nav-item ${location.pathname === "/contact" ? "active" : ""}`}>Contact</Link>
           <a href="/Ahmad Bilal Resume.pdf" target="_blank" className="btn-outline-nav">Resume</a>
+          
+          <button 
+            onClick={toggleTheme} 
+            className="theme-toggle" 
+            aria-label="Toggle theme"
+          >
+            {isLightMode ? <Moon size={20} /> : <Sun size={20} />}
+          </button>
         </div>
       </div>
     </nav>
