@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
+import Chatbot from "./components/Chatbot";
 import NotFound from "./pages/NotFound";
 
 // Component to handle global UI logic (scroll animations, route changes, cursor)
@@ -107,11 +108,13 @@ function App() {
         </main>
 
         <Footer />
+        <Chatbot />
       </div>
     </Router>
   );
 }
 
 export default App;
+
 
 
