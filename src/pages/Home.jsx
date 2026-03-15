@@ -52,8 +52,8 @@ export default function Home() {
 
         <div className="hero-cta">
           <Link to="/projects" className="btn-primary">View My Work <ArrowRight size={18} /></Link>
-          <a href="https://github.com/Khawaja-Ahmad7" target="_blank" rel="noreferrer" className="btn-social"><Github size={20} /> GitHub</a>
-          <a href="https://linkedin.com/in/ahmad-bilal" target="_blank" rel="noreferrer" className="btn-social"><Linkedin size={20} /> LinkedIn</a>
+          <a href="https://github.com/Khawajaa07" target="_blank" rel="noreferrer" className="btn-social"><Github size={20} /> GitHub</a>
+          <a href="https://www.linkedin.com/in/khawaja-ahmad-bilal/" target="_blank" rel="noreferrer" className="btn-social"><Linkedin size={20} /> LinkedIn</a>
         </div>
       </section>
 
@@ -103,7 +103,7 @@ export default function Home() {
             <div className="project-header">
               <Terminal size={40} className="project-icon" />
               <div className="project-links">
-                <a href="https://github.com/Khawaja-Ahmad7" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
+                <a href="https://github.com/Khawajaa07" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
               </div>
             </div>
             <h3 className="project-title">Enterprise Retail POS</h3>
@@ -119,7 +119,7 @@ export default function Home() {
             <div className="project-header">
               <DatabaseBackup size={40} className="project-icon" />
               <div className="project-links">
-                <a href="https://github.com/Khawaja-Ahmad7" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
+                <a href="https://github.com/Khawajaa07" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
               </div>
             </div>
             <h3 className="project-title">Car Price Predictor</h3>

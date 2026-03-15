@@ -9,7 +9,7 @@ export default function Projects() {
           <div className="project-header">
             <Terminal size={40} className="project-icon" />
             <div className="project-links">
-              <a href="https://github.com/Khawaja-Ahmad7" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
+              <a href="https://github.com/Khawajaa07" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
             </div>
           </div>
           <h3 className="project-title">Enterprise Retail POS</h3>
@@ -26,7 +26,7 @@ export default function Projects() {
           <div className="project-header">
             <DatabaseBackup size={40} className="project-icon" />
             <div className="project-links">
-              <a href="https://github.com/Khawaja-Ahmad7" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
+              <a href="https://github.com/Khawajaa07" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
             </div>
           </div>
           <h3 className="project-title">Car Price Predictor</h3>
@@ -43,7 +43,7 @@ export default function Projects() {
           <div className="project-header">
             <Code size={40} className="project-icon" />
             <div className="project-links">
-              <a href="https://github.com/Khawaja-Ahmad7" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
+              <a href="https://github.com/Khawajaa07" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
             </div>
           </div>
           <h3 className="project-title">AI Tech Buying Guide</h3>
@@ -59,7 +59,7 @@ export default function Projects() {
           <div className="project-header">
             <Terminal size={40} className="project-icon" />
             <div className="project-links">
-              <a href="https://github.com/Khawaja-Ahmad7" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
+              <a href="https://github.com/Khawajaa07" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
             </div>
           </div>
           <h3 className="project-title">Dental Care App</h3>
@@ -75,7 +75,7 @@ export default function Projects() {
           <div className="project-header">
             <DatabaseBackup size={40} className="project-icon" />
             <div className="project-links">
-              <a href="https://github.com/Khawaja-Ahmad7" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
+              <a href="https://github.com/Khawajaa07" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
             </div>
           </div>
           <h3 className="project-title">Data Flow / ETL Pipeline</h3>
@@ -91,7 +91,7 @@ export default function Projects() {
           <div className="project-header">
             <Code size={40} className="project-icon" />
             <div className="project-links">
-              <a href="https://github.com/Khawaja-Ahmad7" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
+              <a href="https://github.com/Khawajaa07" target="_blank" rel="noreferrer" className="icon-link"><Github size={22} /></a>
             </div>
           </div>
           <h3 className="project-title">Flappy Bird Clone</h3>

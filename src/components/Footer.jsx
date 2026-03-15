@@ -5,8 +5,8 @@ export default function Footer() {
     <footer className="footer">
       <p>Built and designed by Ahmad Bilal</p>
       <div className="footer-links">
-        <a href="https://github.com/Khawaja-Ahmad7" target="_blank" rel="noreferrer"><Github size={16}/></a>
-        <a href="https://linkedin.com/in/ahmad-bilal" target="_blank" rel="noreferrer"><Linkedin size={16}/></a>
+        <a href="https://github.com/Khawajaa07" target="_blank" rel="noreferrer"><Github size={16}/></a>
+        <a href="https://www.linkedin.com/in/khawaja-ahmad-bilal/" target="_blank" rel="noreferrer"><Linkedin size={16}/></a>
       </div>
     </footer>
   );
