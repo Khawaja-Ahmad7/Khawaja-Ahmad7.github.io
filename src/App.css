@@ -699,7 +699,7 @@ section {
   height: 100%;
   background: var(--blue-gradient);
   width: 0%;
-  transition: width 0.1s ease;
+  transition: width 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 /* Mouse Blob Glow Effect */
@@ -845,4 +845,5 @@ section {
   80% { transform: translate(2px, -2px) }
   100% { transform: translate(0) }
 }
+
 

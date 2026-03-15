@@ -65,12 +65,14 @@ function ScrollProgress() {
   
   useEffect(() => {
      const onScroll = () => {
-        const winScroll = document.documentElement.scrollTop;
-        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        const scrolled = (winScroll / height) * 100;
-        setScrollDown(scrolled);
-     }
-     window.addEventListener("scroll", onScroll);
+        requestAnimationFrame(() => {
+          const winScroll = document.documentElement.scrollTop;
+          const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          const scrolled = (winScroll / height) * 100;
+          setScrollDown(scrolled);
+        });
+     };
+     window.addEventListener("scroll", onScroll, { passive: true });
      return () => window.removeEventListener("scroll", onScroll);
   }, []);
   
